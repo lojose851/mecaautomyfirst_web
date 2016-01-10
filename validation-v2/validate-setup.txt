@@ -1,0 +1,40 @@
+Setup Instructions for Validate
+
+Step One: Add JQuery library to your webpage
+
+Step Two: Add Validate Script and CSS file to your web page
+
+Step Three: Activate the valditor by using this script in the head section of your webpage
+
+   <script type="text/javascript" >
+   $(document).ready( function(){
+      $('#form_id').validator({debug:true});
+      $(':input').css( 'autocomplete', 'off' );   
+   });
+   </script>
+
+Replace #formid with the actual id of your form
+
+Step Four: Add data validation attribute to the required form fields as needed:
+
+data-validate="required;"
+
+
+
+Sample Code For Site (modify your paths as needed):
+
+     <script type="text/javascript" src="../js/validate.js"></script>
+     <link href="../css/validate.css" rel="stylesheet" type="text/css" media="screen">
+	
+	   <script type="text/javascript" >
+       $(document).ready( function(){
+          $('#form_id').validator({debug:true});
+          $(':input').css( 'autocomplete', 'off' );   
+       });
+       </script>
+
+
+
+
+
+

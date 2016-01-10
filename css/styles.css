@@ -1,0 +1,80 @@
+/* CSS Document */
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
+
+body				{ background-image: url(../images/background/tan-bg.jpg);
+							Background-repeat: repeat;
+							font-family: Arial, Helvetica, sans-serif;	}
+
+h1, h2, h3			{ font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif;	}
+
+#wrapper			{ width:900px; margin: 10px auto;
+							background-color:#fff;	
+							padding: 0 40px;	}
+							
+#top				{ }
+#logo				{ 	float: left; margin: 50px 0;
+						border: 1px #000 dotted;	}
+
+#social-media		{	 float:right; margin: 40px 10;	}
+#social-media ul li { 	display: inline; list-style-type: none;	}
+#social-media p		{	 text-align: center;	}
+
+#topnav				{ 	clear: both;	}
+#topnav	ul			{	 padding: 15px 0; margin: 0;
+						border-top: 1px #000 dotted;	}
+#topnav		ul li	{ 	display: inline; list-style-type: none;
+						margin: 0 40px 0 0;	}						
+#topnav a:link		{	font-weight: bold; text-decoration: none;text-transform: uppercase; color:000;	}
+#topnav a:visited	{	font-weight: bold; text-decoration: none; text-transform: uppercase; color:000;	}
+#topnav a:active	{	font-weight: bold; text-decoration: none; text-transform: uppercase; color:000;	}
+#topnav a:hover		{	font-weight: bold; text-decoration: none; text-transform: uppercase; color:#A85400;	}
+#topnav	a:focus		{	font-weight: bold; text-decoration: none; text-transform: uppercase; color:#A85400;	}	
+
+
+#content			{	 float: left; width: 580px;	}
+#content h2         {	color: #A85400;	}
+#content p			{	 font-size: 12px; line-height: 180%;	}
+
+#hotrods			{ 	width:265px; float: left; margin-right: 40px;	}
+#Porsche			{ 	width:265px; float: left;	}
+.img-right			{	float: right; padding: 0 0 0px 25px;		}
+
+#rightside			{	float: right; width: 270px;	}
+#rightside  h2		{	color: #A85400;	}
+#rightside	p		{	font-size:12px; line-height: 180p&;	}
+#rightside	li		{	font-size:12px; line-height: 180p%;	}
+
+
+#footer				{ 	clear: both; padding: 10px 0;	
+						border-top: 1px #000 dotted;	}
+#footer p			{	text-align: center; font-size: 14px; font-weight: bold;	}
+
+#gallery ul li 		{	list-style-type:none; display:inline; margin-left:0px; paddin-left:0px;}
+
+#gallery img		{ padding:5px; border: 1px #555 dotted; margin: 0px 15px 15px;	}
+
+.thumb-large		{ width:200px; heght: 120px;	}
+
+/*	contact form styles */
+
+
+#contact-form ol li {	list-style-type: none;	}
+
+input, textarea		{ display: block; width: 350px;	
+						border: 1px #000 solid; 	
+						padding:5px; }
+
+textarea			{	height:150px;	}
+
+input:hover, textarea:hover		{	background-color:#F4F4F4;	}
+input:focus, textarea:focus		{	background-color:#F4F4F4;	}
+
+label 					{	display: block;	margin-top: 10px;	}
+.submit 				{ width: 100px; margin-top: 15px;	}
+
+					

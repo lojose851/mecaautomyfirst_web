@@ -1,0 +1,49 @@
+// Step One: Here is the html page code for the Slider Plug In
+
+	<script type="text/javascript" src="Insert path to JQuery Library Here"></script>
+	<script type="text/javascript" src="Insert path to JQuery Slider Plug In Here"></script>
+
+// Step Two: Add the link to the slider CSS file (make sure media is set to "screen"
+
+	<link href="Insert Path the Slider CSS file" rel="stylesheet" type="text/css" media="screen">
+
+
+// Step Three: This is the code to activate the plug in
+
+	<script type="text/javascript">  // This is the script for the banner slider
+		$(document).ready(function() {
+			$('#slider').s3Slider({
+				timeOut: 3000
+			});
+		});
+	</script>
+	
+
+
+// Step Four: The ID of the DIV that contains the slider should be "slider". 
+
+// Here is an example of the code for the slider images
+// Place ,br /> tags where you want lines to break and double <br /> tags when you want a paragraph separation
+
+    <div id="slider">
+
+		<ul id="sliderContent">
+		
+		<!-- use this list item if you want to include a link -->				
+			<li class="sliderImage">
+				<a href=""><img src="../images/banner/b1.jpg" /></a>
+				<span class="top"><strong>This is an image title</strong><br />Lorem pellentesque habitant morbi tristique.<br />Estibulum erat wisi, condimentum, commodo <br />ornare sit wisi. Aenean fermentum, elit eget<br />tinciduntcondimentum.Vestibulum erat wisi<br />condimentum sed, commodo vitae, ornare <br />sit amet, wisi. Aenean fermentum, elit eget <br />tincidunt condimentum.</span>
+			</li>
+			
+		<!-- use this list item if you don NOT want to include a link -->				
+			<li class="sliderImage">
+				<img src="../images/banner/b3.jpg" />
+				<span class="top"><strong>This is an image title</strong><br />Lorem pellentesque habitant morbi tristique.<br />Estibulum erat wisi, condimentum, commodo <br />ornare sit wisi. Aenean fermentum, elit eget<br />tinciduntcondimentum.Vestibulum erat wisi<br />condimentum sed, commodo vitae, ornare <br />sit amet, wisi. Aenean fermentum, elit eget <br />tincidunt condimentum.</span>
+			</li>
+
+			<div class="clear sliderImage"></div>
+		</ul>
+	
+	</div>
+
+// Step Five: Edit the settings in the CSS file
