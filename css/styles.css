@@ -46,8 +46,8 @@ h1, h2, h3			{ font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif;	
 
 #rightside			{	float: right; width: 270px;	}
 #rightside  h2		{	color: #A85400;	}
-#rightside	p		{	font-size:12px; line-height: 180p&;	}
-#rightside	li		{	font-size:12px; line-height: 180p%;	}
+#rightside	p		{	font-size:12px; line-height: 180%;	}
+#rightside	li		{	font-size:12px; line-height: 180%;	}
 
 
 #footer				{ 	clear: both; padding: 10px 0;	
