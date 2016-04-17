@@ -169,7 +169,7 @@
                          <li><a href="#">Beta Line</a></li>
                     </ul>		
                     </li>
-                    <li><a href="contact.html">CONTACT</a>
+                    <li><a href="contact.php">CONTACT</a>
                     <ul>
                     	<li><a href="contact.php">Contact By Email</a></li>
                         <li><a href="#">Contact By Email</a></li>
@@ -245,33 +245,31 @@
             	<p>Hot rods are typically American cars with large engines modified for linear speed. One explanation is that the term is a contraction of "hot roadster," modified for speed.</p>
                
                <div id="contact-form1">
-                <form method="post" action="webformmailer.php" name="form1" id="my_contact_form">
-                
-                <input type="hidden" name="subject" value="Submission">
-                <input type="hidden" name="redirect" value="thankyou.html">
-                <input type="hidden" name="form_order" value="alpha">
-                <input type="hidden" name="form_delivery" value="hourly_digest">
-                <input type="hidden" name="form_format" value="html">
+                <form method="post" action="procesar.php" name="form1" id="my_contact_form">
+
                 
                 <ol>
                 	<li>
-                    	<label for="Full_Name"> Full Name </label>
-                        <input data-validate="required;" type="text" name="Full Name">
+                    	<label for="name">Name </label>
+                        <input id="name" data-validate="required;" type="text" name="name" required >
                     </li>
                 	<li>
-                    	<label for="Email"> Email </label>
-                        <input data-validate="required; email;" type="text" name="Email">
+                    	<label for="email"> Email </label>
+                        <input id="email" data-validate="required; email;" type="email" name="email" required >
+                    </li>
+                    <li>
+                        <label for="subject">Subject </label>
+                        <input id="subjetct" data-validate="required" type="text" name="subject" required >
+                	</li>
+                    	<label for="phone">Phone (option) </label>
+                        <input id="phone" type="text" name="phone" >
                     </li>
                 	<li>
-                    	<label for="Phone">Phone </label>
-                        <input type="text" name="Phone">
+                    	<label for="message"> Message</label>
+                        <textarea id="message" name="message" required ></textarea>
                     </li>
                 	<li>
-                    	<label for="mesage"> Message</label> 
-                        <textarea name="message"></textarea>
-                    </li>
-                	<li>
-                    	<input class="submit" type="submit" name="Submit" value="submit">
+                    	<button class="submit" type="submit" name="submit" >Submit</button>
                         
                     </li>
                 </ol>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ef99ad8b-d492-4f6d-bc6a-d2fc4815c7f7" name="mecaautopholstery.com" url="http://mecaautoupholstery.com">
+        <fileTransfer host="mecaautoupholstery.com" port="21" username="mecaauto">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
